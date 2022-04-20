@@ -58,3 +58,144 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 
 5. Dentro do seu diretório local, crie um arquivo chamado “README.md” e edite-o contendo todas as respostas aos enunciados das questões anteriores. Adicione-o ao seu repositório remoto utilizando os comandos git necessários para a realização desta tarefa. Cole aqui a cadeia de comandos que você utilizou para a realização desta tarefa. 
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git commit -m "chore: modificações"
+[main 86350fe] chore: modificações
+ 2 files changed, 61 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ rewrite README.md (100%)
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.45 KiB | 743.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/leonardoandradevieira/my_first_steps
+   7e3ee2f..86350fe  main -> main
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git add .
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git commit -m "chore: de novo o readme"
+[main ed65a65] chore: de novo o readme
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 387 bytes | 387.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/leonardoandradevieira/my_first_steps
+   86350fe..ed65a65  main -> main
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git commit -m "chore: modificações"
+[main 86350fe] chore: modificações
+ 2 files changed, 61 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ rewrite README.md (100%)
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.45 KiB | 743.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/leonardoandradevieira/my_first_steps
+   7e3ee2f..86350fe  main -> main
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git add .
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git commit -m "chore: de novo o readme"
+[main ed65a65] chore: de novo o readme
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Administrador@LAPTOP-5LHLGVG6 MINGW64 ~/Documents/Leo/Aulas/Alpha EdTech/Exercícios/HARD/my_first_steps (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 387 bytes | 387.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/leonardoandradevieira/my_first_steps
+   86350fe..ed65a65  main -> main
